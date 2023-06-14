@@ -1,0 +1,12 @@
+Source: ros-noetic-rviz-robot-description-topic
+Section: misc
+Priority: optional
+Maintainer: Tim Clephas <tim.clephas@nobleo.nl>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-noetic-catkin, ros-noetic-rviz
+Homepage: https://github.com/nobleo/rviz_robot_description_topic
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rviz-robot-description-topic
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, ros-noetic-rviz
+Description: RobotModel display using a `/robot_description` topic instead of a parameter

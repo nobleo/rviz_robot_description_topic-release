@@ -1,0 +1,8 @@
+ros-noetic-rviz-robot-description-topic (1.0.0-1focal) focal; urgency=high
+
+  * RobotModel display using a /robot_description topic instead of a parameter
+  * Contributors: Tim Clephas
+
+ -- Tim Clephas <tim.clephas@nobleo.nl>  Tue, 13 Jun 2023 22:00:00 -0000
+
+
